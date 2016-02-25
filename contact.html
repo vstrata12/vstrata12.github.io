@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Contacts</title>
+		<style>
+			body {
+				background-color: #F5F3EE;
+			}
+			p {
+				font-family: "Timew New Roman";
+				font-size: 20px;
+				text-align: center;
+			}
+			div {
+				font-family: "Times New Roman";
+				font-size: 20px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			ol {
+				font-family: "Times New Roman";
+				font-size: 20px;
+				text-align: center;
+				list-style-position: inside;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navigation">
+				<div style="text-align: center">
+					<p>Stratan Victor's Website</p>
+					<a href="index.html">Home</a>
+					|
+					<a href="about.html">About me</a>
+					|
+					<a href="cv.html">CV - Resume</a>
+					|
+					<a href="photo.html">Photos</a>
+					|
+					<a href="contact.html">Contacts</a>
+				</div>
+			</div>
+		</div>
+		<strong>
+			<p style="text-align: center; font-size: 30px; font-family: Arial">My contacts:</p>
+		</strong>
+			<p>As I have mentioned earlier, this website was done in order to present you my CV in an online form. Therefore, if you have any questions and you consider that I am the one who meets all requirements for the job in your company you may contact me on:</p>
+				<ol>
+					<li>Facebook: 
+						<a href="https://www.facebook.com/stratan.victor" target="_blank">Victor Stratan</a>;
+					</li>
+					<li>Skype: 
+						<a href="skype:stratan-victor">stratan-victor</a>;
+					</li>
+					<li>E-mail: 
+						<a href="mailto:vstrata12@students.lcc.lt">vstrata12@students.lcc.lt</a>;
+					</li>
+					<li>Telephone number: (+370) 624 09 168.</li>
+				</ol>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() {
+									var mapProp = {
+													center:new google.maps.LatLng(55.7311114,21.1329724),
+													zoom:18,
+													mapTypeId:google.maps.MapTypeId.ROADMAP
+									};
+									var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+		<div id="googleMap" style="width:500px;height:380px;"></div>
+		<div id="footer">
+			<div id="navigation">
+				<div style="text-align: center">
+					<a href="index.html">Home</a>
+					|
+					<a href="about.html">About me</a>
+					|
+					<a href="cv.html">CV - Resume</a>
+					|
+					<a href="photo.html">Photos</a>
+					|
+					<a href="contact.html">Contacts</a>
+					<p>&copy; 2016 Victor Stratan, LCC International University, Kretingos gatve 36, Klaipeda, Lithuania | (+370) 624 09 168, vstrata12@students.lcc.lt</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

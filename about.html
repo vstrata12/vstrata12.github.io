@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>About me</title>
+		<style>
+			body {
+				background-color: #F5F3EE;
+			}
+			p {
+				font-family: "Timew New Roman";
+				font-size: 20px;
+			}
+			div {
+				font-family: "Times New Roman";
+				font-size: 20px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			img {
+				width:700px;
+				height:450px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navigation">
+				<div style="text-align: center">
+					<p>Stratan Victor's Website</p>
+					<a href="index.html">Home</a>
+					|
+					<a href="about.html">About me</a>
+					|
+					<a href="cv.html">CV - Resume</a>
+					|
+					<a href="photo.html">Photos</a>
+					|
+					<a href="contact.html">Contacts</a>
+				</div>
+			</div>
+		</div>
+		<strong>
+			<p style="text-align: center; font-size: 30px; font-family: Arial">About me</p>
+		</strong>
+		<div style="text-align: center">
+			<p>As I have mentioned earlier, my name is Victor Stratan. I am fourth year student at LCC International University in Klaipeda, Lithuania.</p>
+			<p>
+				<a href="https://www.lcc.lt/" target="_blank">
+					<img src="lcc.jpg"/>
+				</a>
+			</p>
+			<p>My major is International Business Administration and minor is International Economics.</p>
+			<p>I was born in 1993 and grew up in Chisinau, Republic of Moldova.</p>
+			<p>
+				<a href="https://www.facebook.com/RepublicaMoldovaUE/?fref=ts" target="_blank">
+					<img src="chisinau.jpg"/>
+				</a>
+			</p>
+			<script src="http://maps.googleapis.com/maps/api/js"></script>
+			<script>
+				function initialize() {
+										var mapProp = {
+														center:new google.maps.LatLng(47.0104529,28.8638103),
+														zoom:10,
+														mapTypeId:google.maps.MapTypeId.ROADMAP
+										};
+										var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				}
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div id="googleMap" style="width:500px;height:380px;"></div>
+			<p>However, I have a double citizenship, such as Moldovian and Romanian citizenships.</p>
+			<p style="clear: both;">
+				<p>
+					<a href="http://media1.noi.md/uploads/images/Acte_documente/pasaport_mtic_gov_md.jpg" style="text-decoration:none;" target="_blank">
+						<img src="pasaportmd.jpg" style="width: 40%; margin-right: 1%" />
+					</a>
+					<a href="http://epochtimes-romania.com/news_images/2013/08/2013_08_15_pasaport_4_rsz.jpg" target="_blank">
+						<img src="pasaportro.jpg" style="width: 40%; margin-right: 1%" />
+					</a>
+				</p>
+			</p>
+			<p>At the moment I live in Klaipeda, Lithuania. I am studying and working here.</p>
+			<p>
+				<a href="https://www.facebook.com/loveklaipeda/?fref=ts" target="_blank">
+					<img src="klaipeda.jpg"/>
+				</a>
+			</p>
+		</div>
+		<div id="footer">
+			<div id="navigation">
+				<div style="text-align: center">
+					<a href="index.html">Home</a>
+					|
+					<a href="about.html">About me</a>
+					|
+					<a href="cv.html">CV - Resume</a>
+					|
+					<a href="photo.html">Photos</a>
+					|
+					<a href="contact.html">Contacts</a>
+					<p>&copy; 2016 Victor Stratan, LCC International University, Kretingos gatve 36, Klaipeda, Lithuania | (+370) 624 09 168, vstrata12@students.lcc.lt</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
